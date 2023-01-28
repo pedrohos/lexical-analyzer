@@ -1,7 +1,7 @@
 use std::env;
 use std::process;
-use simple_lexer::common::config::Config;
-use simple_lexer::run;
+use lexical_analyzer::common::config::Config;
+use lexical_analyzer::run;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
